@@ -11,7 +11,7 @@
 
 #### 1. User Authentication
 - **Description:** Secure login/logout functionality using OAuth protocols with Google sign-in.
-- **Purpose:** Ensures that only authorized users can access the app and perform sensitive operations, protecting user data.
+- **Purpose:** Ensures that only authorized users can access the app and perform sensitive operations, protecting users and organizations data.
 
 #### 2. Budget Management
 - **Description:** Real-time tracking of budgets and transactions with features to create, review, and adjust budgets. Includes a three-stage transaction process: pending, validated, and reimbursed.
