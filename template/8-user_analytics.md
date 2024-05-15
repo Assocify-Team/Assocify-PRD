@@ -5,8 +5,6 @@
 *What is the analysis plan (link to data collection)?*
 *Include relevant A/B testing ideas.*
 
-## User Analytics and Acceptance
-
 
 ### Key Metrics
 - **Active Users:** Daily and monthly active users to gauge overall app engagement and retention.
