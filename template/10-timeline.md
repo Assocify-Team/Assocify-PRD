@@ -6,8 +6,8 @@
 *List identified sprints*
 
 ### Overall Schedule
-- **Project Initiation Date:** March 15, 2024
-- **Expected Completion Date:** May 30, 2024
+- **Project Initiation Date:** March 15, 2024**
+- **Expected Completion Date:** May 30, 2024**
 - **Key Milestones:**
   - **Milestone 1 [Project Kick-off]:** April 12, 2024
   - **Milestone 2 [First End-To-End]:** May 3, 2024
