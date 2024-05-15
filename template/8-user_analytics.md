@@ -7,8 +7,6 @@
 
 ## User Analytics and Acceptance
 
-### Goal
-- **Objective:** To comprehensively understand how users are interacting with the app, identify patterns of usage, and measure satisfaction and performance against set objectives.
 
 ### Key Metrics
 - **Active Users:** Daily and monthly active users to gauge overall app engagement and retention.
@@ -18,23 +16,19 @@
 - **Feature Usage:** Frequency and manner in which specific features are used, highlighting the most and least popular features.
 
 ### Success Criteria
-- **User Growth:** Achieve a steady month-over-month increase in user numbers by 10%.
-- **Engagement Metrics:** Maintain an average session length of over 3 minutes and increase user retention rate by 20% within six months.
-- **Satisfaction Levels:** Achieve an average user satisfaction score of at least 4 out of 5 based on user feedback surveys.
+- **User Growth:** Achieve a steady month-over-month increase in user numbers.
+- **Engagement Metrics:** Maintain an average session length and increase user retention rate.
+- **Satisfaction Levels:** Achieve an high average user satisfaction score.
 
 ### Analysis Plan
 - **Data Collection Methods:**
-  - Utilize integrated analytics tools within the app, such as Google Analytics for mobile, to automatically track and report on user behavior and app performance.
-  - Implement custom event tracking to capture interactions with specific features and functionalities.
+TO FILL
 - **Data Analysis Techniques:**
-  - Regularly analyze data to identify trends, patterns, and areas for improvement.
-  - Use statistical methods and data visualization tools to present findings to product owners.
+TO FILL
 
 ### A/B Testing Ideas
-- **Onboarding Process:**
-  - Test different onboarding flows to determine which sequence leads to higher user retention and satisfaction.
-- **Notification Strategies:**
-  - Compare the effectiveness of different types of push notifications (e.g., event reminders vs. general announcements) in driving user engagement.
+
+TO FILL
 
 ### Implementation of A/B Tests
 
