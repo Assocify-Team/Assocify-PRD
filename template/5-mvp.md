@@ -22,6 +22,7 @@
 
 #### Target Personas
 - **Description of Personas:**
+  - **President:** Responsible to manage the association as a whole
   - **Treasurer:** Responsible for managing budgets, transactions, and financial reports.
   - **Event Coordinator:** Organizes and oversees events, coordinates locations, and manages event staff.
   - **General Members:** Participate in events, view announcements, and interact with other organization functionalities.
