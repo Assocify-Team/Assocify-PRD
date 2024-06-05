@@ -10,10 +10,13 @@ The initial Proof of Concept (PoC) for our product was planned and executed over
 
 - **User Authentication:**
   We use Google authentication for user login. On their first login, users are required to either choose an existing association to join or create a new one.
-- **Core Feature Implementation:** Our app's two main features are managing an association's treasury and overseeing its events. Users can effortlessly create budgets, scan receipts, and record them in the accounting books. Additionally, users can efficiently manage association tasks, view them on a map, and integrate them into their schedule.
+- **Core Feature Implementation:**
+  - Treasury Management: Our app's first core feature is managing the treasury of an association. Users can effortlessly create budgets, scan receipts, and accurately record them in the accounting books, simplifying financial management.
+  - Event Management: The second core feature focuses on overseeing association events. Users can efficiently manage tasks, view them on a map, and integrate them into their schedule, enhancing coordination and productivity.
 - **Initial UI/UX Design:**
-  
-- **Database Integration:** We use Supabase.
+  - User-Centric Interface: The design prioritizes ease of use and intuitiveness, ensuring that users can navigate the app and utilize its features with minimal effort.
+  - Consistent Visual Design: A consistent color scheme (blue), typography, and iconography were employed to create a cohesive visual experience.
+- **Database Integration:** We transitioned to using Supabase for our database needs. Supabase, being a relational database, was essential for our project requirements, offering robust data management and real-time capabilities.
 ### Learnings from the V1 PoC
 
 - **Team Collaboration Challenges:**
