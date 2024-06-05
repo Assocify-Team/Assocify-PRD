@@ -16,10 +16,13 @@ The initial Proof of Concept (PoC) for our product was planned and executed over
 ### Learnings from the V1 PoC
 
 - **Team Collaboration Challenges:**
+Sometimes backend and frontend developers were working on the same part of the app simultaneously. This required great communication skills, since the frontend developer had to adress his needs to the backend one. This resulted to some challenges and delays to greatly coordinate both.
 - **Technical Challenges:**
+We changed the database that we were using.
 - **Performance Metrics:**
 
 ### Bridging the Gap from PoC to MVP
+
 
 
 
