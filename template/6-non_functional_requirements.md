@@ -3,14 +3,17 @@
 *What are your internal policies?*
 *Which privacy features do you need from the phone?*
 
-*What kind of traffic patterns do you expect to see?*
-*Are there known periods of bursty traffic that the MVP must be designed to support?*
+
 
 
 ### Security, Privacy, and Data Retention Policies:
-Assocify is an app that is data-centric. One of the main goals of the app is to store treasury data on a server, so it can be accessed by specific memebers of the associations (like comitees), while the other members cannot have access to the data. Since the data that Assocify manages is often sensible (we are talking about accounting information, which needs to be kept secret), the final app would need to store all acconting data in an encrypted form. The data should be end-to-end encrypted, since we want the users to be sure that the data they upload is not seen nor modified.  
-#### Applicable Laws and Regulations:
+Assocify is an app that is data-centric. One of the main goals of the app is to store treasury data on a server, so it can be accessed by specific memebers of the associations (like the comitees), while the other members do not have access to the data. Since the data that Assocify manages is often sensible (we are talking about accounting information, which needs to be kept secret), the final app would need to store all acconting data in an encrypted form. The data should be end-to-end encrypted, since we want the users to be sure that the data they upload is not seen nor modified. 
 
+Another priority would be the management of user data: we ask to the user to input their name, a profile picture, and if the user is a staff at an event we would like to have it's localisation. While the name and the profile picture will be stored on the database, the localisation will only be stored on the user's phone. This will prevent data leaks of the position, which would be problematic on a security point of view. Another feature linked to the user would be the score and ranking linked to the gamification aspect of the app. Since the values in this case can't be encrypted (we need a way to compare the different values between each participant), we will ensure the privacy by adding an option in the settings to disable the gamification aspect for the user, if he doesn't want his data stored in the server.
+
+As per the security aspect of the application, Assocify is also based on a strongly based on a system of permissions. Thus we need for the system to be well implemented and tested, to avoid for a member of an association to access to critical data. Thus one major policies we have to ensure is that only members of the comitee will have the possibility to modify the
+#### Applicable Laws and Regulations:
+The main concern we would have would be in the manner we store the user's data. We would to follow the GPRD for the users in Europe, and the varionited States.
 #### Internal Policies:
 
 #### Privacy Features Required from the Phone:
@@ -29,4 +32,4 @@ The two main usages of the assocify app would be for event management and accout
 However, the challenge related to traffic would be linked on the usage during the events: we know that during an event, ideally all the staffs would use the app to upload their receipts, update the tasks that are done and communicate between each other. We also consider that all the staffs would want to access to their updated gamified statistics, which would increase even more the traffic between the server and the different users. Thus the main case we have to take into account is how to manage traffic during the organization of a big event. We also have to take into account the case where multiple organizations have organized an event at the same time, which could increase even more the traffic with the server.
 #### Design for Bursty Traffic:
 We will use two strategies to handle bursty traffic:
--Caching: 
+- Caching: we will add a tag on the server and on the app to tell when the server is overwhelmed. When an user's app receives a confirmation with the  
