@@ -8,7 +8,7 @@
 
 
 ### Security, Privacy, and Data Retention Policies:
-Assocify is an app that is data-centric. One of the main goals of the app is to store
+Assocify is an app that is data-centric. One of the main goals of the app is to store treasury data on a server, so it can be accessed by specific memebers of the associations (like comitees), while the other members cannot have access to the data. Since the data that Assocify manages is often sensible (we are talking about accounting information, which needs to be kept secret), the final app would need to store all acconting data in an encrypted form. The data should be end-to-end encrypted, since we want the users to be sure that the data they upload is not seen nor modified.  
 #### Applicable Laws and Regulations:
 
 #### Internal Policies:
@@ -28,4 +28,5 @@ The two main usages of the assocify app would be for event management and accout
 
 However, the challenge related to traffic would be linked on the usage during the events: we know that during an event, ideally all the staffs would use the app to upload their receipts, update the tasks that are done and communicate between each other. We also consider that all the staffs would want to access to their updated gamified statistics, which would increase even more the traffic between the server and the different users. Thus the main case we have to take into account is how to manage traffic during the organization of a big event. We also have to take into account the case where multiple organizations have organized an event at the same time, which could increase even more the traffic with the server.
 #### Design for Bursty Traffic:
-Two strategies exist to handle
+We will use two strategies to handle bursty traffic:
+-Caching: 
