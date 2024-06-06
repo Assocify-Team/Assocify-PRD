@@ -1,28 +1,22 @@
 ## Non-Functional Requirements
-*Which are the applicable laws and regulations?*
-*What are your internal policies?*
-*Which privacy features do you need from the phone?*
-
-
-
 
 ### Security, Privacy, and Data Retention Policies:
-Assocify is an app that is data-centric. One of the main goals of the app is to store treasury data on a server, so it can be accessed by specific memebers of the associations (like the comitees), while the other members do not have access to the data. Since the data that Assocify manages is often sensible (we are talking about accounting information, which needs to be kept secret), the final app would need to store all acconting data in an encrypted form. The data should be end-to-end encrypted, since we want the users to be sure that the data they upload is not seen nor modified. 
+*Which are the applicable laws and regulations?*
 
-Another priority would be the management of user data: we ask to the user to input their name, a profile picture, and if the user is a staff at an event we would like to have it's localisation. While the name and the profile picture will be stored on the database, the localisation will only be stored on the user's phone. This will prevent data leaks of the position, which would be problematic on a security point of view. Another feature linked to the user would be the score and ranking linked to the gamification aspect of the app. Since the values in this case can't be encrypted (we need a way to compare the different values between each participant), we will ensure the privacy by adding an option in the settings to disable the gamification aspect for the user, if he doesn't want his data stored in the server.
+*What are your internal policies?*
 
-As per the security aspect of the application, Assocify is also based on a strongly based on a system of permissions. Thus we need for the system to be well implemented and tested, to avoid for a member of an association to access to critical data. Thus one major policies we have to ensure is that only members of the comitee will have the possibility to modify the
-#### Applicable Laws and Regulations:
-The main concern we would have would be in the manner we store the user's data. We would to follow the GPRD for the users in Europe, and the varionited States.
-#### Internal Policies:
+*Which privacy features do you need from the phone?*
+#### Security Policy:
+One of the main objectives of the Assocify application is the storage and management of accounting data. Since this data is considered as sensible and should at no cost leak public. For this reason all data related to the accounting part of the application will be encrypted on the servers, with only the members of the associations having access at the encryption key. The key would not be stored in the servers, but will be owned by all the members of the app having the comitee status. When a new member of the app is accepted as comitee, he receives directly from the comitee that accepted him the key to access the treasury database. This way even if there is a data breach the treasury data will be difficult to retrieve. For the event data, we will divide the comitee data that will encrypted in the same way than the treasury data, and the public data that can be acessed by all the staffs and will be stored in clear. We consider this data to not be critical, and a data breach on this data would not have a significant impact on the security of the Association.
 
-#### Privacy Features Required from the Phone:
-The app assocify will need three specific authorizations: 
-- Camera authorization
-- Geolocalisation access
-- Storage access
+For this reason the Role system will be implemented in a good to avoid that only persons with the right permissions have access to sensible 
 
-However, all the authorizations are optional and only asked in the case they are needed. For exeample, the camera is asked the first time the user wants to upload a receipt, or wants to change it's profile picture. The localization will also be asked the first 
+#### Privacy Policy:
+At the moment 
+
+
+
+#### Data Retention Policy:
 
 ### Adoption, Scalability, and Availability:
 
