@@ -53,11 +53,13 @@
 ### User Adoption and Engagement
 - Aim to have at least 10% (12) of the approximately 125 associations on campus adopt Assocify by the end of the first semester. With an average committee size of 10 members, this translates to a target of 120 users.
 - Achieve a DAU of 10% (12) and MAU of 50% (60) in the same month
+
 ### Feedback and Satisfaction
 - Aim for positive feedback and high ratings from users.
 - Ensure that key features such as receipt scanning, task management, and budget planning are regularly used by the target user base.
 - Conduct regular surveys to gather user feedback on what to improve and what new features to add.
 - Measure the willingness of users to recommend Assocify to others. Aim for an NPS (Net Promoter Score) of 50 or above.
+
 ### Progress with Ecosystem Partners, Investors, and Customers
 - Establish and maintain strong partnerships with universities and student organizations.
 - Aim to secure partnerships with at least 5 key entities within the first six months.
@@ -65,8 +67,10 @@
   
 ## Features Outside the Scope
 To ensure that the MVP for Assocify is both viable and minimal, certain features will be excluded from the initial release. Here is a list of features that don’t belong in the MVP and a suggested sequence for their eventual integration:
+
 1. Minutes recording: audio notes of the meeting
   - We will first add the capability to view the minutes files and then later include the ability to record audio notes of meetings. However, this feature will not be included in the MVP.
+  
 2. Gamification of staffing:
   - Elements such as profiles, profile pictures, pseudonyms, experience, events participated in, statistics about staffings, step counts, hours in activity, and rankings of staff during events based on step count and/or tasks completed.
   - For the MVP, we will only include essential features like profile pictures, pseudonyms, and the events you participated in. Gamification elements will not be added initially. We will consider adding more gamification features in future updates based on user feedback and demand.
