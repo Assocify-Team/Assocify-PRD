@@ -62,30 +62,28 @@
 *Metrics include user penetration, quality / satisfaction.*
 *If applicable, progress in discussions with ecosystem partners / investors / customers.*
 ### User Adoption and Engagement
-- Aim for at least 10% of all associations on campus by the end of the first semester
+- Aim to have at least 10% (12) of the approximately 125 associations on campus adopt Assocify by the end of the first semester. With an average committee size of 10 members, this translates to a target of 120 users.
+- Achieve a DAU of 10% (12) and MAU of 50% (60) in the same month
+### Feedback and Satisfaction
+- Aim for positive feedback and high ratings from users.
+- Ensure that key features such as receipt scanning, task management, and budget planning are regularly used by the target user base.
+- Conduct regular surveys to gather user feedback on what to improve and what new features to add.
+- Measure the willingness of users to recommend Assocify to others. Aim for an NPS (Net Promoter Score) of 50 or above.
+### Progress with Ecosystem Partners, Investors, and Customers
+- Establish and maintain strong partnerships with universities and student organizations.
+- Aim to secure partnerships with at least 5 key entities within the first six months.
+- Measure the number of student associations that commit to using Assocify regularly. Aim for commitments from at least 20 associations.
+  
 ## Features Outside the Scope
 *The MVP must be viable and minimal.*
 *Which features don’t belong in it.*
 *How should these be eventually integrated and in what sequence.*
 
-
-
-### Personas and Scenarios
-
-### User Stories and Key Features
-
-
-### Success Criteria
-
-#### Evaluation Metrics
-- **User Penetration and Satisfaction:**
-  - Aim for at least 75% of the organization's members using the app regularly by the end of the first semester, with a satisfaction rating of 4 out of 5 in user surveys.
-
-
 ### Features Outside the Scope
 
 #### Non-Essential Features
-
+- recording of minutes
+- 
 
 #### Integration Plan
 
