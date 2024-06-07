@@ -1,29 +1,20 @@
 ## Design and Implementation
 
-*List the key libraries, languages, components used by the MVP.*
-*If applicable, describe essential screens.*
-*Decompose the MVP into functional blocks.*
-*What data are you collecting / managing?*
-*How is it organised?*
-*Where is it stored?*
-*How is it shared/copied/cached?*
-*How is the application developed, tested and deployed?*
-*Any special infrastructure requirements.*
-
-
 ### Frontend
 
 #### Key Libraries, Languages, and Components
-- **Languages and Frameworks:** 
-- **State Management:**
-- **Navigation:** 
-- **UI Components:**
+- **Languages and Frameworks:** Kotlin for Android development with Jetpack Compose for UI.
+- **State Management:** Following MVVM, we utilize Jetpack ViewModel for managing UI-related data and Supabase for backend data.
+- **Navigation:** Navigation Component for managing in-app navigation.
+- **UI Components:** Custom UI components for consistent design and user experience. For example, the main top and navigation (bottom) bars or the text field to search through users.
 
 #### Essential Screens
-- **Login Screen:** Secure entry point for user authentication.
-- **Home Screen:** Overview of upcoming events, recent transactions, and notifications.
-- **Event Management Screen:** Allows users to create, edit, and view upcoming and past events.
-- **Budget Overview Screen:** Displays current budget status, recent transactions, and allows entry of new transactions.
+- **Login Screen:** Implemented for secure user authentication via Google, with integration to Supabase authentication services. Leads to association selection, with the possibility of creating your own.
+- **Home Screen:** Overview of user-specific data including upcoming events, recent transactions, and notifications, utilizing data fetched from the backend.
+- **Treasury Screen:** Displays the receipts, current budget status, recent transactions, and allows entry of new transactions, fetching data from Supabase databases.
+- **Events Screen:** Allows users to create, edit, and view upcoming and past events, with sub-screens for tasks, map, and schedule linked together.
+- **Chat Screen:** Centralizes all discussion and announcements regarding the association, including ways of keeping track and recording the minutes of meeting.
+- **Profile Screen:** Serves as the user's personal hub, providing access to user information, association settings (for permitted committee members), and personal preferences.
 
 ### Backend
 
@@ -63,6 +54,4 @@ The application's backend is on Supabase, which can be self-hosted in its entire
 - **Unit Testing:** Implement unit tests with Junit tests for all components to ensure functionality and catch bugs early.
 - **Integration Testing:** Conduct integration testing to verify that different parts of the application work together as expected.
 - **System Testing:** Perform end-to-end system testing to validate the complete and integrated software product.
-
-#### Special Infrastructure Requirements
 
