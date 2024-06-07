@@ -1,10 +1,6 @@
 ## User Analytics and Acceptance
-*Goal: understand how users are using the app.*
-*Which are the key metrics?*
-*What is the success criteria?*
-*What is the analysis plan (link to data collection)?*
-*Include relevant A/B testing ideas.*
 
+Prior to the comprehensive launch of our MVP (Minimum Viable Product), it's crucial that we establish and deploy a system to gather pertinent data on user interaction with our application. This will enable us to pinpoint areas for enhancement and rectify any issues.
 
 ### Key Metrics
 - **Active Users:** Daily and monthly active users to gauge overall app engagement and retention.
