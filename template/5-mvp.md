@@ -42,8 +42,8 @@
   -  As the president of a new association, I want to register my association on the app to manage it with other membersAs the president of a new association, I want to register my association on the app to manage it with other members
  
 -  User stories for the treasurer:
-  - As the treasurer of my association, I want to see what reimbursements i need to do while keeping track of them (in the accounting books)
-  - As the treasurer of the association, I want to plan the budget for the year to come, with the help of the previous ones for comparison
+   - As the treasurer of my association, I want to see what reimbursements i need to do while keeping track of them (in the accounting books)
+   - As the treasurer of the association, I want to plan the budget for the year to come, with the help of the previous ones for comparison
     
 - User stories for the commitee member:
   - As the manager of a new event, I want to register it and plan it with its map and its first tasks
