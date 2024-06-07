@@ -26,13 +26,13 @@ We switched the database we were using: initially, we started with Firebase, but
 
 ### Bridging the Gap from PoC to MVP
 What features were not included in the PoC but are necessary for a functional MVP: 
-  - notifications:
+  - Notifications:
     - notify treasurers when new receipts are pending
     - notify president when new members request to join an association
-  - our chat screen :
+  - Chat :
     - a tab where different members of an association can discuss
     - easily access minutes of a meeting
-  - our home screen:
+  - Home screen:
     - see next events
 
 
