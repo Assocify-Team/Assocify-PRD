@@ -29,7 +29,7 @@
 **Solutions:** To ensure full access to the app:
 - Local data storage: We store data fetched from the database locally on the device. In cases where fetching data online fails, the app utilize this locally stored data to ensure continued functionality.
 - Asynchronous data updates: Data additions to the database are handled asynchronously. This means that adding new data does not block the user interface or other operations and will be completed as soon as network conditions allow. This approach ensures a smooth and uninterrupted user experience even during periods of network instability.
-- Local file caching for the Map: The map tiles are cached in the application's local files, up to a certain limit of data. At this point, the fully functional cache management system selects which tiles to overwrite.
+- Local file caching for the map: The map tiles are cached in the application's local files, up to a certain limit of data. At this point, the fully functional cache management system selects which tiles to overwrite.
 
 These solutions fits perfectly with our data model system. Every data we fetch from the database is interpreted by the application as entities (i.e data classes), which allows us to store everything locally.
 
