@@ -21,22 +21,22 @@
 - **Description:** Tools for scheduling, coordinating, and managing events. Includes functionalities for task assignment, location tagging, and notification alerts.
 - **Purpose:** Facilitates efficient planning and execution of events, enhancing participation and organizational efficiency.
 
-### Architectural Diagrams
-
-TO FILL
-
-#### Description of Diagram
-
-TO FILL
-
 ### Key Internal Functionality
 
-#### INTERNAL FUNCTIONNALITY 1
+#### Caching and offline usage
+**Motivation:** Assocify prioritizes ease of use and speed, but currently relies heavily on APIs that are fully connected to our online database. To improve performance and user experience, our application must support asynchronous requests to the database and implement robust caching mechanisms. This will enable the app to store frequently accessed data locally, reducing the need for repeated network calls and ensuring users to access its data everywhere. 
 
+**Solutions:** To ensure full access to the app:
+- Local data storage: We store data fetched from the database locally on the device. In cases where fetching data online fails, the app utilize this locally stored data to ensure continued functionality.
+- Asynchronous data updates: Data additions to the database are handled asynchronously. This means that adding new data does not block the user interface or other operations and will be completed as soon as network conditions allow. This approach ensures a smooth and uninterrupted user experience even during periods of network instability.
 
-#### INTERNAL FUNCTIONNALITY 2
+These solutions fits perfectly with our data model system. Every data we fetch from the database is interpreted by the application as entities (i.e data classes), which allows us to store everything easily.
 
+(insérer image cool que j'envoie telegram)
 
-#### INTERNAL FUNCTIONNALITY 3
+#### Permission system for an unified app
+**Motivation:** A core priority of Assocify is to provide a unified application that allows users to manage all their associations seamlessly. In each association, users can hold different roles, which grant them varying levels of permissions. This necessitates a dynamic and adaptable user interface that can easily adjust to reflect the user's specific role and permissions within each association.
 
-
+**Solutions:** Multiple features allows us to have an unified app:
+- Role-Based access control: The application implements a role-based access control system. This ensures that users see and interact with features and data appropriate to their specific roles within each association, enhancing both security and usability. A list of role is defined and can be attributed to users by the association's admin.
+- Dynamic UI Adaptation: The user interface is highly flexible and context-aware, automatically adjusting to display relevant options, tools, and information based on the user’s current role. This includes showing or hiding menu items, buttons, and access to certain features.
