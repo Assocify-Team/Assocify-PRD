@@ -15,11 +15,17 @@ As for the event data, it will be processed in an anonymized way to retrieve sta
 
 #### Data Retention Policy:
 For it to be functioning, the Assocify app necessitates lots of data. For this reason we have developed these policies on data retention:
-- The treasuy data is end-to-end encrypted. This is an important feature, since the treasury data is considered important and should not be compromised by an attack on the server.
+
+- The treasury data is end-to-end encrypted. This is an important feature, since the treasury data is considered important and should not be compromised by an attack on the server.
+
 - The event and the profile data are stored in the server. In this case the end-to-end encryption will not be possible since both the event and profile data will have to be acessible to a growing number of users. However, the data will still be encrypted during the communications, so that it cannot be robbed by a malicious attacker.
+
 - User data is stored on the server. There is no password stored (the authentication is managed by Google), so there will only be the name and the email adress to be stored. 
+
 - After one year of inactivity, the user is notified by mail. In case of an absence of a response, all data linked to the user is deleted from the server. For an association, it's after three years of inactivity (the data on the server has not been modified nor acessed) that the data is eliminated.
+
 - At any point in time, the user can decide to delete it's data. He has a period of 30 days to retract the demand, after that it's data will be deleted permanently. For an association, it's the president that has to ask for the deletion, and the period to retract is the same as for the user.
+
 - The user can ask at any time all the data from his user profile or from his association if he is the president. This data can be used as a backup, or to check what informations are stored on the database.
 
 ### Adoption, Scalability, and Availability:
@@ -32,5 +38,7 @@ However, the challenge related to traffic would be linked on the usage during th
 
 #### Design for Bursty Traffic:
 We will use several strategies to handle bursty traffic:
-- Caching: we will add a tag on the server and on the app to tell when the server is overwhelmed. When an user's app receives a confirmation with the overwhelmed tag, the application starts taking the data from the server automatically and does so only when asked to or for critical operations (update a to-do task). Once the traffic is no longer bursty, it stops sending the overwhelmed tag so the app knows that it can start reusing the app as intended.
-- Priority system: There are some operations that are more important than others. When having a period of bursty traffic, we give priority to all treasury operations (saving receipts or modify budgets) before doing the events operations. This is due to the fact that we want to be sure that the accounting remains consistent, while we have less problems having the tasks of the event to be a little more inconsistent.
+
+- **Caching:** we will add a tag on the server and on the app to tell when the server is overwhelmed. When an user's app receives a confirmation with the overwhelmed tag, the application starts taking the data from the server automatically and does so only when asked to or for critical operations (update a to-do task). Once the traffic is no longer bursty, it stops sending the overwhelmed tag so the app knows that it can start reusing the app as intended.
+
+- **Priority system:** There are some operations that are more important than others. When having a period of bursty traffic, we give priority to all treasury operations (saving receipts or modify budgets) before doing the events operations. This is due to the fact that we want to be sure that the accounting remains consistent, while we have less problems having the tasks of the event to be a little more inconsistent.
