@@ -33,7 +33,7 @@
 
 These solutions fits perfectly with our data model system. Every data we fetch from the database is interpreted by the application as entities (i.e data classes), which allows us to store everything locally.
 
-(insérer image cool que j'envoie telegram)
+![Domain & Data Layer](domaindatalayer.png)
 
 #### Permission system for an unified app
 **Motivation:** A core priority of Assocify is to provide a unified application that allows users to manage all their associations seamlessly. In each association, users can hold different roles, which grant them varying levels of permissions. This necessitates a dynamic and adaptable user interface that can easily adjust to reflect the user's specific role and permissions within each association.
