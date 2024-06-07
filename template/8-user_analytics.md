@@ -8,29 +8,41 @@
 
 ### Key Metrics
 - **Active Users:** Daily and monthly active users to gauge overall app engagement and retention.
-- **User Retention Rate:** Percentage of users who return to the app within a certain time frame, which indicates the app's value to users.
-- **Conversion Rate:** Ratio of users who complete desired actions (e.g., signing up for an event, submitting budgets) versus total visitors.
+- **User Retention Rate:** Percentage of users who return to the app within specific time frames, which indicates the app's engagement.
+- **Conversion Rate:** Ratio of users who complete desired actions (e.g., signing up for an event, submitting budgets) versus total users, to determine the app's effectiveness in driving user actions.
 - **Session Length:** Average time a user spends in the app per session, which helps measure user engagement.
-- **Feature Usage:** Frequency and manner in which specific features are used, highlighting the most and least popular features.
+- **Feature Usage:** Frequency and manner in which specific features are used, highlighting the most and least popular features, to help inform future feature developement.
+- **Net Promoter Score:** Asking users to rate their likelihood to recommend the app on a scale of 0-10, to gauge user satisfaction.
+
 
 ### Success Criteria
-- **User Growth:** Achieve a steady month-over-month increase in user numbers.
+- **User Growth:** Achieve a steady month-over-month increase in user numbers, targeting a specific growth percentage.
 - **Engagement Metrics:** Maintain an average session length and increase user retention rate.
-- **Satisfaction Levels:** Achieve an high average user satisfaction score.
+- **Satisfaction Levels:** Achieve an average net promoter score of 5 or higher
+- **Feature Adoption:** Ensure key features reach a minimum of 70% target users engaging with them.
 
 ### Analysis Plan
-- **Data Collection Methods:**
-TO FILL
-- **Data Analysis Techniques:**
-TO FILL
+**1. Data Collection**
+- Utilize Supabase Reports and Metrics to gather data on user interactions and app performance.
+- Implement custom event tracking to capture detailed metrics beyond built-in data collection, including specific feature usage and conversion actions.
+- Ensure data collection is compliant with privacy standards by anonymizing data and removing any sensitive information.
+
+**2. Data Analysis**
+- Conduct regular data analysis to monitor trends and identify areas for improvement.
+- Use behavioral analysis to understand usage patterns and the impact of new features or updates.
+- Perform event analysis to identify drop-off points in user journeys and optimize conversion rates.
+
+**3. Report**
+- Visualize key metrics and track progress towards success criteria.
+- Generate periodic reports to guide decision-making.
 
 ### A/B Testing Ideas
+- Test various ways of grouping functionalities into tabs and ordering them, to find the most user-friendly navigation structure.
+- Experiment with different homepage layouts, including different information categories to display and different display formats, to indentify the most engaging design.
+- Asses the impact of placing key features in various loactions within the app to optimize ease of search and usage.
+- Try various entry flows to determine what best helps users understand the app and use it effectively
 
-TO FILL
 
-### Implementation of A/B Tests
-
-TO FILL
 
 
 
