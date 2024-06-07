@@ -80,14 +80,9 @@
 *How should these be eventually integrated and in what sequence.*
 
 ### Features Outside the Scope
-
-#### Non-Essential Features
-- recording of minutes
-- 
-
-#### Integration Plan
-
-
-
-
-
+To ensure that the MVP for Assocify is both viable and minimal, certain features will be excluded from the initial release. Here is a list of features that don’t belong in the MVP and a suggested sequence for their eventual integration:
+1. Minutes recording: audio notes of the meeting
+  - We will first add the capability to view the minutes files and then later include the ability to record audio notes of meetings. However, this feature will not be included in the MVP.
+2. Gamification of staffing:
+  - Elements such as profiles, profile pictures, pseudonyms, experience, events participated in, statistics about staffings, step counts, hours in activity, and rankings of staff during events based on step count and/or tasks completed.
+  - For the MVP, we will only include essential features like profile pictures, pseudonyms, and the events you participated in. Gamification elements will not be added initially. We will consider adding more gamification features in future updates based on user feedback and demand.
