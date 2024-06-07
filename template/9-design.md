@@ -37,7 +37,7 @@
 - **Data Organization:** All images are stored in a filesystem-like structure with folders.
 
 #### Sharing, Copying, and Caching
-- **Data Sharing:** The data is only transferred between the server and the client, never between clients or externally. As such.
+- **Data Sharing:** The data is only transferred between the server and the client, never between clients or externally. 
 - **Caching Strategy:** Caching is done by storing portions of the database locally, updated with our code, and refreshed upon the user's request. Upon app reload, the cache is not kept. Images are cached with a lifetime and are stored in a cache folder provided by Android. The cache has a maximum size.
 
 The backend can also easily be extended to include indices on the databases, further increasing speed.

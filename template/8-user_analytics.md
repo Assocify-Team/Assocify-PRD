@@ -19,24 +19,32 @@ Prior to the comprehensive launch of our MVP (Minimum Viable Product), it's cruc
 
 ### Analysis Plan
 **1. Data Collection**
+
 - Utilize Supabase Reports and Metrics to gather data on user interactions and app performance.
+
 - Implement custom event tracking to capture detailed metrics beyond built-in data collection, including specific feature usage and conversion actions.
+
 - Ensure data collection is compliant with privacy standards by anonymizing data and removing any sensitive information.
 
 **2. Data Analysis**
+
 - Conduct regular data analysis to monitor trends and identify areas for improvement.
+
 - Use behavioral analysis to understand usage patterns and the impact of new features or updates.
+
 - Perform event analysis to identify drop-off points in user journeys and optimize conversion rates.
 
 **3. Report**
+
 - Visualize key metrics and track progress towards success criteria.
+
 - Generate periodic reports to guide decision-making.
 
 ### A/B Testing Ideas
 - Test various ways of grouping functionalities into tabs and ordering them, to find the most user-friendly navigation structure.
 - Experiment with different homepage layouts, including different information categories to display and different display formats, to indentify the most engaging design.
-- Asses the impact of placing key features in various loactions within the app to optimize ease of search and usage.
-- Try various entry flows to determine what best helps users understand the app and use it effectively
+- Assess the impact of placing key features in various locations within the app to optimize ease of use.
+- Try various entry flows (login in, requesting access to an association / creating an association, etc) to determine what best helps users understand and navigate into the app
 
 
 
