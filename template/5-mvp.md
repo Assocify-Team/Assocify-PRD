@@ -24,12 +24,13 @@
 - **Description of Personas:**
   - **President:** Responsible for managing the association as a whole
   - **Treasurer:** Responsible for managing budgets, transactions, and financial reports.
-  - **Event Coordinator:** Organizes and oversees events, coordinates locations, and manages event staff.
+  - **Commitee:** Organizes and oversees events, coordinates locations, and manages event staff.
   - **General Members:** Participate in events, view announcements, and interact with other organization functionalities.
+  - **Staff**: Participates in one event in particular, view annoucements
 
 #### Key Persona
 - **Primary User:**
-  - The treasurer is identified as the key persona due to their need for a comprehensive tool to simplify the management of finances, a core challenge faced by student organizations.
+  - The president of the association is the primary user: they oversee all activities, ensuring smooth operation, and maintaining communication within the association. They need a centralized platform to streamline tasks, track finances, and manage events efficiently.
 
 #### High-Level Scenarios
 - **Adoption and Usage:**
