@@ -1,9 +1,4 @@
 ## History
-*Maximum 1 page*
-*Describe the V1 POC as planned by Sprint10.*
-*What did you learn?*
-*What is missing to bridge from PoC to MVP?*
-
 ### Description of V1 PoC as Planned by Sprint 10
 
 The initial Proof of Concept (PoC) for our product was planned and executed over the course of 10 sprints, each lasting a week. Key features developed included:
@@ -26,14 +21,20 @@ We switched the database we were using: initially, we started with Firebase, but
 
 ### Bridging the Gap from PoC to MVP
 What features were not included in the PoC but are necessary for a functional MVP: 
-  - notifications:
-    - notify treasurers when new receipts are pending
-    - notify president when new members request to join an association
-  - our chat screen :
-    - a tab where different members of an association can discuss
-    - easily access minutes of a meeting
-  - our home screen:
-    - see next events
+- Notifications:
+  - Treasurer Notifications: Notify treasurers when new receipts are pending for reimbursement, ensuring timely financial management.
+  - President Notifications: Alert the president when new members request to join the association, streamlining the approval process.
+- Chat :
+  - Discussion Tab: Include a dedicated tab where members of an association can discuss various topics, enhancing communication and collaboration.
+  - Access to Meeting Minutes: Provide easy access to the minutes of meetings within the chat tab, allowing members to review and discuss past meetings.
+- Home screen:
+  - Upcoming Events: Display upcoming events on the home screen so members can quickly see what's scheduled next, promoting better participation and planning.
+  - Annoucements: Display important annoucement that should not be missed
+- Task Management Enhancements:
+  - Task Assignment Notifications: Notify members when tasks are assigned to them, ensuring they are aware of their responsibilities.
+  - Task Completion Tracking: Notify relevant members when tasks are completed, maintaining accountability.
+- Event Participation Tracking: Keep a record of events each member has participated in, contributing to a sense of accomplishment and engagement
+
 
 
 
