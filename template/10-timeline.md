@@ -1,10 +1,5 @@
 # Timeline/Resource Planning
 
-*What’s the overall schedule you’re working towards?*
-*What resources are required?*
-*What are the intermediate milestones?*
-*List identified sprints*
-
 ### Overall Schedule
 - **Project Initiation Date:** March 15, 2024
 - **Expected Completion Date:** May 30, 2024
