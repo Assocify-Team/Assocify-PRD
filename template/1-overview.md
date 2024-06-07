@@ -1,10 +1,5 @@
 ## Overview
 
-*Maximum: 2 pages*
-*What is this project about?*
-*Describe succinctly and precisely its purpose.*
-*Include a 3-sentence (max) elevator pitch.*
-
 Assocify is a centralized app that streamlines the management of student organizations by offering a one-stop solution for handling accounting, announcements, events, and tasks. With features like receipt scanning, dynamic to-do lists, it simplifies the workload for committee members, ensuring nothing is overlooked.
 
 The app is free for everyone including staffs and members of associations, who are the primary personas for this app.
