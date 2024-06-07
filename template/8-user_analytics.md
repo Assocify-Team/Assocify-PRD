@@ -16,10 +16,10 @@
 
 
 ### Success Criteria
-- **User Growth:** Achieve a steady month-over-month increase in user numbers, targeting a specific growth percentage.
-- **Engagement Metrics:** Maintain an average session length and increase user retention rate.
-- **Satisfaction Levels:** Achieve an average net promoter score of 5 or higher
-- **Feature Adoption:** Ensure key features reach a minimum of 70% target users engaging with them.
+- **User Growth:** Achieve a steady month-over-month increase in user numbers, targeting a growth percentage of 10% per month initially.
+- **Engagement Metrics:** Maintain an average session length and acheive a user retention rate of at least 50% initially.
+- **Satisfaction Levels:** Achieve an average net promoter score of 5 or higher.
+- **Feature Adoption:** Ensure key features reach a minimum of 70% target users engaging with them in the first 3 months of their release.
 
 ### Analysis Plan
 **1. Data Collection**
