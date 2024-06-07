@@ -1,9 +1,5 @@
 ## The MVP
 ## Personas and Scenarios
-*Who are the target personas for this product?*
-*Which is the key persona?*
-*High-level scenarios to adopt, use and share the product.*
-
 #### Target Personas
 - **Description of Personas:**
   - **President:** Responsible for managing the association as a whole
@@ -26,10 +22,6 @@
   - General members are encouraged to download the app to access real-time updates about organization activities and events, increasing user engagement and app dependence.
 
 ## User Stories and Key Features
-*User stories about how various personas will use the product in context.*
-*Identify and prioritise the key features required.*
-*Justify the importance of each feature.*
-
 #### User Stories
 - User stories for any member of an association
   - As a member of an association/a staff member of an event, I want to scan a receipt that I just paid in order to get reimbursed later
@@ -58,9 +50,6 @@
    - Budget planning is critical for the financial health of an association. This feature helps treasurers plan future budgets by providing insights from past budgets, ensuring better financial planning and sustainability.
 
 ## Success Criteria
-*How will you evaluate the success of the MVP?*
-*Metrics include user penetration, quality / satisfaction.*
-*If applicable, progress in discussions with ecosystem partners / investors / customers.*
 ### User Adoption and Engagement
 - Aim to have at least 10% (12) of the approximately 125 associations on campus adopt Assocify by the end of the first semester. With an average committee size of 10 members, this translates to a target of 120 users.
 - Achieve a DAU of 10% (12) and MAU of 50% (60) in the same month
@@ -75,11 +64,6 @@
 - Measure the number of student associations that commit to using Assocify regularly. Aim for commitments from at least 20 associations.
   
 ## Features Outside the Scope
-*The MVP must be viable and minimal.*
-*Which features don’t belong in it.*
-*How should these be eventually integrated and in what sequence.*
-
-### Features Outside the Scope
 To ensure that the MVP for Assocify is both viable and minimal, certain features will be excluded from the initial release. Here is a list of features that don’t belong in the MVP and a suggested sequence for their eventual integration:
 1. Minutes recording: audio notes of the meeting
   - We will first add the capability to view the minutes files and then later include the ability to record audio notes of meetings. However, this feature will not be included in the MVP.
