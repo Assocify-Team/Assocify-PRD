@@ -29,13 +29,16 @@
   - **Staff**: Participates in one event in particular, view annoucements
 
 #### Key Persona
-- **Primary User:**
-  - The president of the association is the primary user: they oversee all activities, ensuring smooth operation, and maintaining communication within the association. They need a centralized platform to streamline tasks, track finances, and manage events efficiently.
+- **Primary User:** The president of the association is the primary user: they oversee all activities, ensuring smooth operation, and maintaining communication within the association. They need a centralized platform to streamline tasks, track finances, and manage events efficiently.
 
 #### High-Level Scenarios
-- **Adoption and Usage:**
-  - The treasurer begins using the app at the start of the academic year to set up the annual budget, inputs previous transactions, and tracks ongoing expenses, showcasing the app's capability to streamline financial oversight.
-- **Sharing and Engagement:**
+- **Adoption**:
+  - Scenario: The association president learns about Assocify from a peer or through a university recommendation. Intrigued by its features, they decide to introduce it to their association.
+  - Steps: The president downloads Assocify. They explore its features and realize it can streamline many of their current processes. The president presents the app to the executive committee during a meeting. The committee agrees to implement Assocify and sets it up for their association.
+- **Usage:**
+  - Scenario: The association has successfully adopted Assocify and is now using it for day-to-day operations.
+  - Steps: The treasureer create a budget for an upcoming event using Assocify's treasury management feature. Members are notified of upcoming events and tasks through the app. Any member can scan and upload a receipt, which are then checked by the treasurer and uploaded to the accounting books. Members check the app for their tasks and deadlines, and they can see the event locations on the integrated map.
+- **Sharing:**
   - General members are encouraged to download the app to access real-time updates about organization activities and events, increasing user engagement and app dependence.
 
 ### User Stories and Key Features
