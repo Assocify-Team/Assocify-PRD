@@ -61,6 +61,8 @@
 *How will you evaluate the success of the MVP?*
 *Metrics include user penetration, quality / satisfaction.*
 *If applicable, progress in discussions with ecosystem partners / investors / customers.*
+### User Adoption and Engagement
+- Aim for at least 10% of all associations on campus by the end of the first semester
 ## Features Outside the Scope
 *The MVP must be viable and minimal.*
 *Which features don’t belong in it.*
